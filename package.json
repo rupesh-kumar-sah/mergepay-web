@@ -2,11 +2,11 @@
   "name": "mergepay-web",
   "version": "0.1.0",
   "private": true,
-  "description": "Mergepay — split expenses on Stellar, settle instantly, track everything transparently.",
+  "description": "Mergepay \u2014 split expenses on Stellar, settle instantly, track everything transparently.",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
   },
